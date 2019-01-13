@@ -1,0 +1,84 @@
+
+#carouselExampleIndicators{
+  position: relative;
+  border: 6px solid $or;
+  border-radius: 8px;
+  .carousel-indicators{
+
+  }
+  .carousel-inner{
+    h2{
+      position: absolute;
+      top:5%;
+      left: 50%;
+      transform: translate(-50%,0);
+      color: $blanc-casse;
+    }
+    .description{
+        position: absolute;
+        top:30%;
+        left: 15%;
+        color: $blanc-casse;
+        width: 30%;
+        line-height:2.2rem;
+      text-align: justify;
+    }
+    .img{
+      position: absolute;
+      top:35%;
+      right: 15%;
+      max-height: 200px;
+      max-width: 30%;
+      transform: translate(0,-50%);
+    }
+    .carousel-item{
+      width: 1000px;
+      height: 600px;
+      &:nth-child(1){
+      }
+      &:nth-child(2){
+      }
+      &:nth-child(3){
+      }
+      &:nth-child(4){
+      }
+      &:nth-child(5){
+      }
+      @for $i from 1 through 150 {
+        $value : 25 + random(25);
+        &:nth-child(#{$i}){
+          background-color: rgb($value,$value,$value);
+        }
+      }
+
+      }
+  }
+  .carousel-img{
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background:url('https://media.licdn.com/dms/image/C5603AQFlZHdAYiLKzw/profile-displayphoto-shrink_200_200/0?e=1548892800&v=beta&t=vVLQZnbWp2iO-Z3tU5CNh85N_V4zM9oOKIZ4N2ljEGU');
+  }
+}
+
+svg{
+  position: absolute;
+  top:-65px;
+  left: -65px;
+}
+circle {
+  fill: none;
+}
+
+.circle-front {
+  stroke: $or;
+  stroke-width: 6px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 248px;
+  transform: rotate(119deg);
+  transition: stroke-dashoffset .5s ease;
+}
+

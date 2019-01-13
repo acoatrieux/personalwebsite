@@ -1,0 +1,45 @@
+.page-index {
+  background-color: $blanc-casse;
+  .index-covuerture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &::before {
+      background-image: url("../img/resto.jpg");
+    }
+  }
+
+  h2{
+    color: $grenat;
+  }
+  a{
+    color: $gris-fonce;
+  }
+  .block-datte-site::before{
+      background-image: url("../img/sunrise1.jpg");
+    }
+
+  .block-patati::before{
+    background-image: url("../img/sunrise3.jpg");
+  }
+}@media (min-width: 1440px) {
+  .page-index .index-covuerture {
+    height: calc(100vh + 100px);
+  }
+}
+@media (min-width: 1024px)and(max-width: 1439px ) {
+  .page-index .index-covuerture {
+    height: calc(100vh + 80px);
+  }
+}
+@media (min-width: 768px)and(max-width: 1023px ) {
+  .page-index .index-covuerture {
+    height: calc(100vh + 50px);
+  }
+}
+@media (max-width: 767px ) {
+  .page-index .index-covuerture {
+    height: calc(100vh + 50px);
+  }
+}

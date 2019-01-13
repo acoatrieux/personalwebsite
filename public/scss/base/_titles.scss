@@ -1,0 +1,65 @@
+h1 {
+  font: 25px bolder, 'Barlow Semi Condensed', sans-serif;
+  font-weight:800;
+  text-align: center;
+}
+
+h2 {
+  font: 22px bold, 'Barlow Semi Condensed', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0;
+
+}
+
+h3 {
+  font: 20px bold, 'Barlow Semi Condensed', sans-serif;
+  font-weight: 600;
+  margin: 25px 0;
+
+}
+
+h4 {
+  font: 18px bold, 'Barlow Semi Condensed', sans-serif;
+  font-weight: 500;
+  margin: 20px 0;
+
+}
+@media (min-width: 768px) {
+  h1 {
+    font: 35px bolder, 'Barlow Semi Condensed', sans-serif;
+  }
+
+  h2 {
+    font: 31px bold, 'Barlow Semi Condensed', sans-serif;
+    margin: 30px 0;
+  }
+
+  h3 {
+    font: 30px bold, 'Barlow Semi Condensed', sans-serif;
+  }
+
+  h4 {
+    font: 25px bold, 'Barlow Semi Condensed', sans-serif;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  h1 {
+    font: 42px bolder, 'Barlow Semi Condensed', sans-serif;
+  }
+
+  h2 {
+    font: 34px bold, 'Barlow Semi Condensed', sans-serif;
+    margin: 30px 0;
+  }
+
+  h3 {
+    font: 28px bold, 'Barlow Semi Condensed', sans-serif;
+  }
+
+  h4 {
+    font: 22px bold, 'Barlow Semi Condensed', sans-serif;
+  }
+}

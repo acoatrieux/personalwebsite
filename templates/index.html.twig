@@ -1,0 +1,55 @@
+{% extends "base.html.twig" %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {#<link href='css/accueil.css' rel='stylesheet' type='text/css'>#}
+{% endblock %}
+
+{% block body %}
+    <div class="page-index">
+        <div class="module index-covuerture">
+            {% include 'card-couverture.html.twig' %}
+            <img src="img/losange.png" class="losange">
+        </div>
+        <div class="container p-b-30">
+
+            <h2>Introduction</h2>
+            <div>
+                Je me présente,
+                Anton Coatrieux, 19 ans, je suis actuellement en formation au CEFii afin d'obtenir le titre
+                "Concepteur
+                et
+                Developpeur Informatique" (BAC +3).
+                Pour se faire j'alterne entre 3 semaines entreprise chez 2ISR, et une semaine de cours au CEFii.
+                Ce site à pour objectif de suivre mon parcours et de vous présenter mes différents projets.
+                <a href="/construction" class="flex-end p-b-10">En savoir plus !</a>
+            </div>
+        </div>
+        <div class="module block-datte-site">
+            <img src="img/losange.png" class="losange rotate">
+            <img src="img/losange.png" class="losange">
+        </div>
+        <div class="container p-b-30">
+            <h2>La construction de mon site</h2>
+            <div>
+                Mon site web utilise les différents langages que je maitrise étant pertinant vis-à-vis de ce projet.
+                <ul class="m-t-b-20">
+                    <!-- Todo Insérer une image avec des logos à la place de la simple liste-->
+                    <li>- Le template slim</li>
+                    <li>- Le HTML 5 couplé avec twig</li>
+                    <li>- Le SCSS et CSS</li>
+                    <li>- Le JavaScript avec Jquerry</li>
+                    <li>- Le PHP</li>
+                    <li>- Mais aussi le framework Bootstrap</li>
+                </ul>
+                Pour ce faire je n'utilise pas de tempalte front particulier, en effet j'ai pensser puis codder
+                l'intégralitée de ce site seul. Les photos et différents montages que vous pourrez observer sont
+                libre de droit ou bien elles ont été prise ou créé par moi-même.
+                <a href="/construction" class="flex-end">En savoir plus !</a>
+            </div>
+        </div>
+        <div class="module block-patati">
+            <img src="img/losange.png" class="losange rotate">
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,106 @@
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar {
+  padding: 8px 5px 48px 5px;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  position: fixed;
+  background-color: rgba($gris-fonce, 0.97);
+  font-size: 18px;
+  box-shadow: 0 3px 8px $or;
+  a, span {
+    color: $blanc-casse;
+  }
+  span{
+    color: $or;
+  }
+  .subtitle {
+    position: absolute;
+    top: 38px;
+    left: 7px;
+  }
+  .navbar-toggler {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    * * {
+      font-size: 30px;
+    }
+  }
+  .navbar-collapse {
+    margin-top: 30px;
+    .list-lien {
+      .nav-item {
+        display: flex;
+        padding: 0px 20px 20px 20px;
+        margin: 20px 20px 0px 20px;
+        border-bottom: 2px solid $blanc-casse;
+        justify-content: center;
+        i {
+          color: $blanc-casse;
+          padding: 8px 20px 0 5px;
+        }
+      }
+    }
+
+  }
+  .show .list-lien {
+    height: 100%;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .navbar {
+    padding: 8px 20px;
+    .subtitle {
+      position: relative;
+      top: unset;
+      right: unset;
+    }
+    .navbar-toggler {
+      position: relative;
+      top: unset;
+      right: unset;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .navbar {
+    padding: 8px 30px;
+    .navbar-collapse {
+      margin: 0;
+      .list-lien {
+
+        .nav-item {
+          flex-direction: column;
+          text-align: center;
+          border: none;
+          padding: 8px 15px;
+          margin: 0;
+          i {
+            padding: 0;
+            padding-top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .navbar{
+    padding: 8px 70px;
+  }
+}

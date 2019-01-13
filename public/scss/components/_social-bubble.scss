@@ -1,0 +1,119 @@
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+.block-icones{
+  height:75px;
+  width:75px;
+  border-radius:50%;
+  position:fixed;
+  bottom:15px;
+  left:15px;
+  cursor:pointer;
+  .social-button{
+    background:url('https://media.licdn.com/dms/image/C5603AQFlZHdAYiLKzw/profile-displayphoto-shrink_200_200/0?e=1548892800&v=beta&t=vVLQZnbWp2iO-Z3tU5CNh85N_V4zM9oOKIZ4N2ljEGU');
+    height:75px;
+    width:75px;
+    border-radius:50%;
+    background-position: center;
+    background-size:90%;
+    position:relative;
+    overflow:hidden;
+    z-index:5;
+    &::before{
+      content:"medias";
+      position:absolute;
+      top:35%;
+      right:-25%;
+      background-color:red;
+      transform: rotate(45deg);
+      color:white;
+      text-align:center;
+      padding:2px 0;
+      font-size:20px;
+      width:150%;
+    }
+  }
+  .icone{
+    height:50px;
+    width:50px;
+    opacity:0;
+    border-radius:50%;
+    position:absolute;
+    bottom:12px;
+    left:12px;
+
+  }
+  &.open{
+    .icone{
+      animation: icones-popup 2s ease-in-out;
+      opacity:1;
+      background-position: center;
+      background-size:cover;
+      &:nth-child(2) {
+        background-size:120%;
+        @include transform(translate(-5px, -75px));
+        background-image:url('https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png');
+      }
+      &:nth-child(3) {
+        @include transform(translate(50px, -50px));
+        background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEUAhLH///8AgK+Bts8Ah7Nvsc0Afq7x+fsdi7UAe6z6/v6ZyNstj7jT6PAAga/a6vGLwNaz1OPp9Pj0+vzI3+pjqchOoMKx1eS82uc5lryawteRxNlyr8uKu9Omytzk8PUAc6dAmr9nrcpTpMS8ZgzwAAAEvUlEQVR4nO2da1PiMBSG29geW6DhVgpdBBb9//9xWxEXMc2Jmtgk8z7jB2dnA3nm5H4zSQAAAAAAAAAAAAAAAAAAAAAAAAwgBVH3Q0KMnRMnSEo2+209n9fHRUMkx86PbWS5Wa7Td1bHtozLkc5VeseuoLFzZQ+Z7e79evbRVEfRnlSCXRhFHCVVNBO1YJrOixgURTvk1yuOnTsLyGKgiL4V1PCbG6p1gmm6CF1RbPSCaTp2Dn8KrTjDbdhBFA+cYJq2Qben5Zw33IccRNkOdoX/mYc8tDEppGEX01I5Hr0nDziIZFANAx+Ba8czV5YBNzUZ2xv21DD0GGlUD0MupWYtzSLglib+3sKsxz8H3OPLWeyjNqOR9zTghqYrpoe4C2kHPXKCoa/UiGfOMBs7iz+FPi3nx1QLe+RMW06roBvSC+KsETwlYTczF2h4QXE1i0GwU2wGCmqVxSHYFdRC2dwcI9l66pHl86fZft2WY2fLKkI8VLe73LuXyHa5OwQVz8ddXVX1btpk8fm9cjlpQhEexAAAAAAAsIiUUlzpfh87O5YR3YBw1mzyw4V808xk92+xaAqa5cvq0wL7vD6cs18YBUsq1dDgMtRgEmWyMjvcTs3uVkqWL+R4PY/aaTdnUrE9JGpHsRlI8Uqdf8gxFcdBvTfJhXDpKBaa716/qIqQ1B3Y7LlJJbIt8597JvvM2bKlzPVfrVptYzfl3vdUpXhg4ndl/eCsPjIbF6ptC2NDkTEr6rdUrZOiyha4R8V6lKkhndl9nw/kLta++J0ZVSIzQzLaYb5l6aB7FPpqmCr3nqSRYWmwN3mPgzXobxkaxbD8cgR7TtZvBzgzJPaD1axsR9GVoXZHS4vtCxCO6iGZnSdTUtvt+x3F8K/RUaQBplY7DTcxPLB3HLRsbFZFNzHcG51bHWRiUdCRocFJKy1bi+XUjeGPaeyVU08NLZ6lc9PS/JyNNUVPY5hW1mZSvhqmZ1tB9NbQ2pU5X+thOhnV8DdimD5ZKqbextBaMfU3hqvoDSeWLgX+imG9/ZM/H47br80ZLVVE54aT3VNSUr+dRlS2B6NLOhcs3c513dLs2vImFJIoN55Y7exMMNzGcNV8WqoXcm+Y2NLo26lhpdy6ohez6ePJiqBTw+3ACraYGTU5Jzv3IBwaVoP1SJ5Norjy3VC3tEvsbknHY+G5oXb6Ux79NjTpLZirtYIvp77HkNlhId3eehCGR3ZAwrannhuyw2Za+mzI10N+6sM/buR3DA2u8BfcHr/fhgYX3EtuCO63ofKg0Ue4R8Y8NzS4HU3cWSm/DQ3uLdI0ZMPJjP9mrw3Z3iJ4w/hjCMPwDVEPwzdEDGEIQxi6N0RLA0MYwhCGMOQN0VvAEIbjG6IewhCGMIQhDHlD9BYwhOH4hqiH4RsihjCEIQzdG6KlgSEMxzdEPQzfEDGEIQxh6N4QLY1fhk7evvTJkH2/dP2d90t9MkwS5hVc1b3/sAy53H7rHWGvDBOh+6ZH5Ztb8sxkzuT9SsldQKysvdlGzbSaK6kXhfqWHeXqBNd0Rg+v0MLCh5ghiISS4TfZxUCKy98EMHy3+v1DpAKBP8kEAAAAAAAAAAAAAAAAAAAAAAC3/AMa8mu9vdQPdQAAAABJRU5ErkJggg==')
+      }
+      &:nth-child(4) {
+        @include transform(translate(75px, 5px));
+        background-image:url('https://i0.wp.com/www.bornes-solutions.com/wp-content/uploads/2016/07/logo-twitter-rond.png?w=280&ssl=1');
+        background-size:120%;
+      }
+    }
+  }
+}
+
+@keyframes flip {
+  0% {
+  }
+  25%{
+    @include transform(rotate(10deg) scale(0.7));
+  }
+  50%{
+    @include transform(rotate(0deg) scale(1.2));
+  }
+  75% {
+    @include transform(rotate(-75deg) scale(0.7));
+  }
+  100% {
+    @include transform(rotate(0deg) scale(1));
+  }
+}
+@keyframes flip-back{
+  0% {
+    @include transform(rotate(0deg) scale(1));
+  }
+  25%{
+    @include transform(rotate(365deg) scale(0.7));
+  }
+  50%{
+    @include transform(rotate(0deg) scale(1.2));
+  }
+  75% {
+    @include transform(rotate(10deg) scale(0.7));
+  }
+  100% {
+  }
+}
+@keyframes icones-popup  {
+  0% {
+    @include transform(translate(0, 0) scale(0));
+    opacity:0
+  }
+  30%{
+    opacity: 0.5;
+  }
+  40%{
+    @include transform(translate(50px, -50px) scale(1));
+    opacity: 1;
+  }
+  100% {
+  }
+}

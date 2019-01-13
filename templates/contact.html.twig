@@ -1,0 +1,139 @@
+{% extends "base.html.twig" %}
+{% block stylesheets %}
+  {{ parent() }}
+  <link href='css/contact.css' rel='stylesheet' type='text/css'>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+{% endblock %}
+{% block body %}
+  <div class="page-contact">
+    <div id="" class="block-couv">
+      <div class="couv-accueil-cercle-beu"></div>
+      <div class="title-circle icone">
+        <h1> Contact</h1>
+      </div>
+      <div class="couverture-header"></div>
+    </div>
+  </div>
+  <div class="container block-form">
+    <div class="row">
+      <div class="col-md">
+        <h2>Contactez-nous</h2>
+      </div>
+      <div class="col-md">
+        <h2>ISIMed</h2>
+        <div>BP 50435 49304 CHOLET Cedex</div>
+        <div>Service client : <span class="color-green">02 52 45 05 38</span></div>
+      </div>
+    </div>
+    <form action="/contact" class="" id="form-contact" method="POST">
+      <div class="row">
+        <div class="col-lg no-padding">
+          {#{{ dump(flash) }}#}
+          <div class="col-lg">
+            <div class="form-group">
+              <label for="firstname">Prénom<span class="color-green">*</span> : </label>
+              <input type="text" name="firstname" class="form-control" id="firstname" required
+                     maxlength="40" value="">
+              <div class="error" id="error-firstname">
+                {% if flash.getFirstMessage('firstname') %}
+                  Votre prénom est invalide
+                {% endif %}
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg">
+            <div class="form-group">
+              <label for="lastname">Nom<span class="color-green">*</span> : </label>
+              <input type="text" name="lastname" class="form-control" id="lastname" required
+                     maxlength="40">
+              <div class="error" id="error-lastname">
+                {% if flash.getFirstMessage('lastname') %}
+                  Votre prénom est invalide
+                {% endif %}
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg">
+            <div class="form-group">
+              <label for="phone">Téléphone : </label>
+              <input type="text" class="form-control" name="phone" id="phone" maxlength="14">
+              <div class="error" id="error-phone">
+                {% if flash.getFirstMessage('phone') %}
+                  Votre prénom est invalide
+                {% endif %}
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg">
+            <div class="form-group">
+              <label for="email">Email<span class="color-green">*</span> : </label>
+              <input type="email" class="form-control" name="email" id="email">
+              <div class="error" id="error-email">
+                {% if flash.getFirstMessage('email') %}
+                  Votre adresse email est invalide
+                {% endif %}
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg">
+          <div class="form-group">
+            <label for="message">Votre message<span class="color-green">*</span> : </label>
+            <textarea class="form-control" name="message" id="message" required></textarea>
+            <div class="error" id="error-message">
+              {% if flash.getFirstMessage('message') %}
+                Votre message est invalide
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row captcha">
+        <div class=" description">
+          "Je certifie que je suis majeur et donne mon consentement quant au traitement et à l'utilisation des
+          informations communiquées via ce formulaire, dont j'ai pris connaissance sur cette même page. Je
+          suis également informé(e) de la possibilité et des moyens qui me sont donnés pour retirer ce
+          consentement à tout moment, ou exercer mes droits sur mes données personnelles."* :
+        </div>
+        <div class="col-lg">
+          <div class="g-recaptcha" data-sitekey="6LfNEn4UAAAAALxElk5ILKtNvDHPxkg4VSRGKo68"
+               data-callback="recaptchaCallback"></div>
+          <div class="" id="error-captcha">
+            {% if flash.getFirstMessage('captcha') %}
+              Veuillez cochez cette case afin de vérifier que vous n'êtes pas un robot et de pouvoir envoyer votre message
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class=" row-btn">
+        <button class="btn btn-success" id="btn-submit" type="submit">VALIDER</button>
+        <button class="btn btn-primary" type="reset">ANNULER</button>
+      </div>
+    </form>
+
+  </div>
+{% endblock %}
+{% block javascripts %}
+  {{ parent() }}
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+          async defer>
+  </script>
+  <script>
+    var onloadCallback = function () {
+      $('#error-captcha').text('Veuillez cochez cette case afin de vérifier que vous n\'êtes pas un robot et de pouvoir envoyer votre message\n');
+      $('#btn-submit').attr('disabled', true);
+    };
+    var recaptchaCallback = function () {
+      $('#error-captcha').text('');
+      $('#btn-submit').removeAttr('disabled');
+    }
+  </script>
+
+{% endblock %}
+
