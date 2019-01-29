@@ -9,4 +9,5 @@ $(document).ready(function(){
             $('.social-button').css('animation','flip  0.5s')
         }
     });
+
 });

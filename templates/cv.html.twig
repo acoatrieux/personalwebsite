@@ -2,7 +2,6 @@
 
 {% block stylesheets %}
     {{ parent() }}
-    {#<link href='css/accueil.css' rel='stylesheet' type='text/css'>#}
 {% endblock %}
 
 {% block body %}
@@ -10,15 +9,22 @@
         <h2>CURICULUM VITAE</h2>
         <section>
             <div class="card-panel">
+                <span class="icone">
+                    <i class="fas fa-calendar-check"></i>
+                </span>
                 <h3>Expériences</h3>
                 <div>
-                    <h4>Développeur Web - 2018</h4>
+                    <h4>Développeur Web
+                        <small>- 2018</small>
+                    </h4>
                     <p>
                         Stage de 5 mois chez 2ISR à Cholet développement web (principalement front), maquettage.
                     </p>
                 </div>
                 <div>
-                    <h4>DevOps’Days - 2017</h4>
+                    <h4>DevOps’Days
+                        <small>- 2017</small>
+                    </h4>
                     <p>
                         Création d'un projet ainsi que réalisation d’un site de mise en commun de biens matériels
                     </p>
@@ -30,30 +36,41 @@
             <div class="row">
                 <div class="col-12 col-md-6 ">
                     <div class="card-panel">
+                        <span class="icone">
+                            <i class="fas fa-graduation-cap"></i>
+                        </span>
                         <h3>Formations</h3>
                         <div>
-                            <h4>Concepteur et Developpeur Informatique (CDI) - 2019</h4>
+                            <h4>Concepteur et Developpeur Informatique (CDI)
+                                <small>- 2019</small>
+                            </h4>
                             <p>
                                 Diplome RNCP de niveau 2 (BAC +3) au CEFii à Angers (49):
                                 Developpeur web front & back - Symfony - Angular - Ionic
                             </p>
                         </div>
                         <div>
-                            <h4>IT START - 2018</h4>
+                            <h4>IT START
+                                <small>- 2018</small>
+                            </h4>
                             <p>
                                 Formation IT START section DIGI à l’imie : Dev Front - Suite Adobe - SEO ...
                             </p>
                         </div>
                         <h3>Diplômes</h3>
                         <div>
-                            <h4>Baccalauréat - 2017</h4>
+                            <h4>Baccalauréat
+                                <small>- 2017</small>
+                            </h4>
                             <p>
                                 Diplôme du Baccalauréat au Lycée Europe Robert Schuman à Cholet (49) : Spécialisation
                                 Initiation aux Sciences du Numérique
                             </p>
                         </div>
                         <div>
-                            <h4>Brevet des Collèges - 2014</h4>
+                            <h4>Brevet des Collèges
+                                <small>- 2014</small>
+                            </h4>
                             <p>
                                 Diplôme du Brevet des Collèges - Collège de l’Evre à Montrevault(49)– Latin
                             </p>
@@ -62,19 +79,70 @@
                 </div>
                 <div class="col-12 col-md-6 ">
                     <div class="card-panel">
-                        <h3>Formations</h3>
+                        <span class="icone">
+                            <i class="fas fa-briefcase"></i>
+                        </span>
+                        <h3>Compétences</h3>
                         <div>
-                            <h4>Concepteur et Developpeur Informatique (CDI) - 2019</h4>
+                            <h4>Languages Informatiques</h4>
                             <p>
-                                Diplome RNCP de niveau 2 (BAC +3) : Developpeur web front & back - Symfony - Angular -
-                                Ionic
+                                HTML
+                            </p>
+                            <div class="progress">
+                                <div class="determinate 100" style="width: 100%;"></div>
+                            </div>
+                            <p>
+                                CSS
+                                <small>(sass & scss / bootstrap / responsive)</small>
+                            </p>
+                            <div class="progress">
+                                <div class="determinate 100" style="width: 95%;"></div>
+                            </div>
+                            <p>
+                                Java Script
+                                <small>(vanilla / jquery / typescript)</small>
+                            </p>
+                            <div class="progress">
+                                <div class="determinate 100" style="width: 90%;"></div>
+                            </div>
+                            <p>
+                                PHP
+                            </p>
+                            <div class="progress">
+                                <div class="determinate 100" style="width: 65%;"></div>
+                            </div>
+                            <p>
+                                SQL
+                                <small>(my sql / datagrip)</small>
+                            </p>
+                            <div class="progress">
+                                <div class="determinate 100" style="width: 55%;"></div>
+                            </div>
+
+                        </div>
+                        <div>
+                            <h4>Autres langages
+                            </h4>
+                            <p>
+                                Angular , Ionic , Symfony , Wordpress , Slim
                             </p>
                         </div>
                         <div>
-                            <h4>IT START - 2018</h4>
+                            <h4>Autres
+                            </h4>
                             <p>
-                                Formation IT START section DIGI à l’imie : Dev Front - Suite Adobe - SEO ...
+                                Maquettage
+                                <small>(In Dessign / Mockup )</small>
                             </p>
+                            <div class="progress">
+                                <div class="determinate 100" style="width: 80%;"></div>
+                            </div>
+                            <p>
+                                Photshop & Illustrator
+                            </p>
+                            <div class="progress">
+                                <div class="determinate 100" style="width: 65%;"></div>
+                            </div>
                         </div>
 
 
@@ -84,14 +152,17 @@
         </section>
         <section>
             <div class="card-panel">
+                <span class="icone">
+                    <i class="fas fa-info"></i>
+                </span>
                 <h3>Divers</h3>
                 <div>
                     <h4>Langue</h4>
                     <p>
-                        Anglais  niveau B2 + Vocabulaire informatique / développement.
+                        Anglais niveau B2 + Vocabulaire informatique / développement.
                     </p>
                     <p>
-                        Espagnol  niveau B1 / B2.
+                        Espagnol niveau B1 / B2.
                     </p>
                 </div>
                 <div>

@@ -1,28 +1,62 @@
-.container.page-cv{
+.container.page-cv {
   margin-top: 102px;
   padding-top: 20px;
-  h2{
-
-  }
-  .card-panel{
+  .card-panel {
     color: $gris-fonce;
     background-color: #fafafa;
     padding: 20px;
     margin: 0.5rem 0 1rem 0;
+    position: relative;
     border-radius: 2px;
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-    h3{
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    h3 {
       color: $or;
       line-height: 2.5rem;
       margin: 1rem 0;
       font-weight: 800;
       text-align: center;
-    }
-    h4{
-      color: $grenat-clair ;
 
+    }
+    h4 {
+      color: $grenat;
+      border-bottom: 1px solid $grenat-clair;
+      font-weight: 600;
+    }
+    span.icone:first-child{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: $gris;
+      color: white;
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+    }
+    .progress {
+      position: relative;
+      height: 4px;
+      display: block;
+      width: 100%;
+      background-color: rgba($gris-clair, 0.4);
+      border-radius: 2px;
+      margin: 0.5rem 0 1rem 0;
+      overflow: hidden;
+      .determinate {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background-color: $or;
+        transition: width .3s linear;
+      }
     }
   }
 }
+
