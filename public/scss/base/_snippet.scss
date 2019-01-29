@@ -1,215 +1,265 @@
-.pull-left{
+.pull-left {
   float: left;
 }
-.pull-right{
+
+.pull-right {
   float: right;
 }
-.flex-end{
+
+.flex-end {
   display: flex;
   justify-content: flex-end;
 }
-.no-padding{
+
+.no-padding {
   padding: 0;
 }
-.no-margin{
+
+.no-margin {
   margin: 0;
 }
-.p-t-5{
+
+.no-padding-top {
+  padding-top: 0
+}
+
+.no-padding-left {
+  padding-left: 0
+}
+
+.no-padding-right {
+  padding-right: 0
+}
+
+.no-padding-bottom {
+  padding-bottom: 0
+}
+
+.p-t-5 {
   padding-top: 5px;
 }
-.p-r-5{
+
+.p-r-5 {
   padding-right: 5px;
 }
-.p-b-5{
+
+.p-b-5 {
   padding-bottom: 5px;
 }
-.p-l-5{
+
+.p-l-5 {
   padding-left: 5px;
 }
-.p-t-10{
-   padding-top: 10px;
- }
-.p-r-10{
+
+.p-t-10 {
+  padding-top: 10px;
+}
+
+.p-r-10 {
   padding-right: 10px;
 }
-.p-b-10{
+
+.p-b-10 {
   padding-bottom: 10px;
 }
-.p-l-10{
-  padding-left:10px;
+
+.p-l-10 {
+  padding-left: 10px;
 }
-.p-t-15{
+
+.p-t-15 {
   padding-top: 15px;
 }
-.p-r-15{
+
+.p-r-15 {
   padding-right: 15px;
 }
-.p-b-15{
+
+.p-b-15 {
   padding-bottom: 15px;
 }
-.p-l-15{
-  padding-left:15px;
+
+.p-l-15 {
+  padding-left: 15px;
 }
-.p-20{
+
+.p-20 {
   padding: 20px;
 }
-.p-15{
-  padding:15px;
+
+.p-15 {
+  padding: 15px;
 }
-.p-10{
+
+.p-10 {
   padding: 10px;
 }
-.p-5{
+
+.p-5 {
   padding: 5px;
 }
-.m-t-b-10{
+
+.m-t-b-10 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.m-t-b-20{
+
+.m-t-b-20 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.m-10{
+
+.m-10 {
   margin: 10px;
 }
-.m-20{
+
+.m-20 {
   margin: 20px;
 }
-.p-b-30{
+
+.p-b-30 {
   padding-bottom: 30px
 }
-.w-100{
+
+.w-100 {
   width: 100%;
 }
-.m-w-100{
+
+.m-w-100 {
   max-width: 100%;
 }
-.module{
+
+.module {
   position: relative;
   height: 500px;
-  &::before,&::after{
+  &::before, &::after {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     content: "";
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    filter: grayscale(80%) brightness(0.4) opacity(70%) ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(80%) brightness(0.4) opacity(70%);
   }
 }
-.parallax{
+
+.parallax {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-$losangeHeight:  50px;
-.losange{
+
+$losangeHeight: 50px;
+.losange {
   position: absolute;
   bottom: 0;
   right: 0;
   height: $losangeHeight;
   width: 100%;
-  &.rotate{
+  &.rotate {
     bottom: unset;
     top: 0;
     transform: rotate(180deg);
   }
 }
 
-
 /* LG */
-@media (min-width: 1440px){
-  .p-20-lg{
+@media (min-width: 1440px) {
+  .p-20-lg {
     padding: 20px;
   }
-  .p-15-lg{
-    padding:15px;
+  .p-15-lg {
+    padding: 15px;
   }
-  .p-10-lg{
+  .p-10-lg {
     padding: 10px;
   }
-  .p-5-lg{
+  .p-5-lg {
     padding: 5px;
   }
-  .m-10-lg{
+  .m-10-lg {
     margin: 10px;
   }
-  .m-20-lg{
+  .m-20-lg {
     margin: 20px;
   }
-  $losangeHeight:  100px;
-  .losange{
+  $losangeHeight: 100px;
+  .losange {
     height: $losangeHeight;
   }
 }
+
 /* MD */
-@media (min-width: 1024px)and(max-width: 1439px ) {
-  .p-20-md{
+@media (min-width: 1024px) and(max-width: 1439px) {
+  .p-20-md {
     padding: 20px;
   }
-  .p-15-md{
-    padding:15px;
+  .p-15-md {
+    padding: 15px;
   }
-  .p-10-md{
+  .p-10-md {
     padding: 10px;
   }
-  .p-5-md{
+  .p-5-md {
     padding: 5px;
   }
-  .m-10-ms{
+  .m-10-ms {
     margin: 10px;
   }
-  .m-20-md{
+  .m-20-md {
     margin: 20px;
   }
-  $losangeHeight:  80px;
-  .losange{
+  $losangeHeight: 80px;
+  .losange {
     height: $losangeHeight;
   }
 }
+
 /* SM */
-@media (min-width: 768px)and(max-width: 1023px ) {
-  .p-20-sm{
+@media (min-width: 768px) and(max-width: 1023px) {
+  .p-20-sm {
     padding: 20px;
   }
-  .p-15-sm{
-    padding:15px;
+  .p-15-sm {
+    padding: 15px;
   }
-  .p-10-sm{
+  .p-10-sm {
     padding: 10px;
   }
-  .p-5-sm{
+  .p-5-sm {
     padding: 5px;
   }
-  .m-10-sm{
+  .m-10-sm {
     margin: 10px;
   }
-  .m-20-sm{
+  .m-20-sm {
     margin: 20px;
   }
 }
+
 /* XS */
-@media (max-width: 767px ) {
-  .p-20-xs{
+@media (max-width: 767px) {
+  .p-20-xs {
     padding: 20px;
   }
-  .p-15-xs{
-    padding:15px;
+  .p-15-xs {
+    padding: 15px;
   }
-  .p-10-xs{
+  .p-10-xs {
     padding: 10px;
   }
-  .p-5-xs{
+  .p-5-xs {
     padding: 5px;
   }
-  .m-10-xs{
+  .m-10-xs {
     margin: 10px;
   }
-  .m-20-xs{
+  .m-20-xs {
     margin: 20px;
   }
 }

@@ -17,7 +17,11 @@ require '../vendor/autoload.php';
 $app->get('/', function (Request $request, Response $response, array $args) {
     return $this->view->render($response, 'index.html.twig', $args);
 });
-$app->get('/presentation', function (Request $request, Response $response, array $args) {
+$app->get('/cv', function (Request $request, Response $response, array $args) {
+    return $this->view->render($response, 'cv.html.twig', $args);
+});
+
+$app->get('/portfolio', function (Request $request, Response $response, array $args) {
     return $this->view->render($response, 'presentation.html.twig', $args);
 });
 $app->get('/contact', function (Request $request, Response $response, array $args) {
