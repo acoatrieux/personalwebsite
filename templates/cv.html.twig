@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block body %}
+    <div class="background-cv"></div>
     <div class="page-cv container">
         <h2>CURICULUM VITAE</h2>
         <section>
@@ -34,7 +35,7 @@
         </section>
         <section>
             <div class="row">
-                <div class="col-12 col-md-6 ">
+                <div class="col-12 col-lg-6 ">
                     <div class="card-panel">
                         <span class="icone">
                             <i class="fas fa-graduation-cap"></i>
@@ -77,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 ">
+                <div class="col-12 col-lg-6 ">
                     <div class="card-panel">
                         <span class="icone">
                             <i class="fas fa-briefcase"></i>
@@ -158,29 +159,39 @@
                 <h3>Divers</h3>
                 <div>
                     <h4>Langue</h4>
-                    <p>
+                    <p class="langue p-b-5">
+                        <img src="img/GB-flag.png" alt=""  height="20px" class="p-r-15">
+
                         Anglais niveau B2 + Vocabulaire informatique / développement.
                     </p>
-                    <p>
+                    <p class="langue">
+                        <img src="img/espagne-flag.png" alt=""  height="20px" class="p-r-15" >
                         Espagnol niveau B1 / B2.
                     </p>
                 </div>
                 <div>
                     <h4>Workspace</h4>
-                    <p>
+                    <!-- TODO : popover on hover chaque élément -->
+                    <p class="langue">
+                        <i class="fas fa-desktop p-r-15"></i>
                         PhP Storm, Git, gulp, npm, Data Grip, Photoshop & Illustrator, Chrome & Firefox développer
                         édition.
                     </p>
                 </div>
                 <div>
                     <h4>Centre d'intérêts</h4>
-                    <p>
+                    <p class="langue">
+                        <img src="img/moto.png" alt=""  width="55px" class="p-r-15" >
                         Moto - Permis 125 cc : Véhiculé (yamaha YZF)
                     </p>
-                    <p>
+                    <p class="langue">
+                        <img src="img/car.png" alt=""  width="55px" class="p-r-15" >
                         Voiture - Permis voiture en cours
                     </p>
-                    <p>PSC1 (Prévention et Secours Civiques de niveau 1)</p>
+                    <p class="langue">
+                        <i class="fas fa-briefcase-medical p-r-15" ></i>
+                        PSC1 (Prévention et Secours Civiques de niveau 1)
+                    </p>
                 </div>
 
             </div>

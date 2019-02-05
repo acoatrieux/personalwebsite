@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     &::before {
-      background-image: url("../img/resto.jpg");
+      background-image: url("../img/resto.png");
     }
   }
 
@@ -17,11 +17,11 @@
     color: $gris-fonce;
   }
   .block-datte-site::before{
-      background-image: url("../img/sunrise1.jpg");
+      background-image: url("../img/sunrise1.png");
     }
 
   .block-patati::before{
-    background-image: url("../img/sunrise3.jpg");
+    background-image: url("../img/sunrise3.png");
   }
 }@media (min-width: 1440px) {
   .page-index .index-covuerture {

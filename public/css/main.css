@@ -192,8 +192,7 @@ h4 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    filter: grayscale(80%) brightness(0.4) opacity(70%); }
+    height: 100%; }
 
 .parallax {
   background-attachment: fixed;
@@ -370,7 +369,7 @@ body {
   left: 15px;
   cursor: pointer; }
   .block-icones .social-button {
-    background: url("https://media.licdn.com/dms/image/C5603AQFlZHdAYiLKzw/profile-displayphoto-shrink_200_200/0?e=1548892800&v=beta&t=vVLQZnbWp2iO-Z3tU5CNh85N_V4zM9oOKIZ4N2ljEGU");
+    background-image: url("../img/moi.png");
     height: 75px;
     width: 75px;
     border-radius: 50%;
@@ -522,305 +521,305 @@ body {
     width: 1000px;
     height: 600px; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(1) {
-      background-color: #313131; }
+      background-color: #1c1c1c; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2) {
-      background-color: #1a1a1a; }
+      background-color: #222222; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3) {
-      background-color: #1a1a1a; }
+      background-color: #232323; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(4) {
-      background-color: #1d1d1d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(5) {
-      background-color: #2b2b2b; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(6) {
-      background-color: #2f2f2f; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(7) {
-      background-color: #212121; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(8) {
-      background-color: #1d1d1d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(9) {
-      background-color: #2d2d2d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(10) {
-      background-color: #2f2f2f; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(11) {
-      background-color: #232323; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(12) {
-      background-color: #262626; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(13) {
-      background-color: #313131; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(14) {
-      background-color: #1e1e1e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(15) {
-      background-color: #242424; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(16) {
-      background-color: #2f2f2f; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(17) {
-      background-color: #252525; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(18) {
-      background-color: #2e2e2e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(19) {
-      background-color: #212121; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(20) {
-      background-color: #2a2a2a; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(21) {
-      background-color: #2d2d2d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(22) {
-      background-color: #1c1c1c; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(23) {
-      background-color: #1e1e1e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(24) {
-      background-color: #1c1c1c; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(25) {
-      background-color: #202020; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(26) {
-      background-color: #323232; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(27) {
-      background-color: #1c1c1c; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(28) {
-      background-color: #292929; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(29) {
-      background-color: #242424; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(30) {
-      background-color: #222222; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(31) {
-      background-color: #1b1b1b; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(32) {
-      background-color: #292929; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(33) {
-      background-color: #2e2e2e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(34) {
-      background-color: #1a1a1a; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(35) {
-      background-color: #1f1f1f; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(36) {
-      background-color: #252525; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(37) {
-      background-color: #222222; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(38) {
-      background-color: #252525; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(39) {
-      background-color: #2b2b2b; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(40) {
-      background-color: #2e2e2e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(41) {
-      background-color: #1b1b1b; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(42) {
-      background-color: #323232; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(43) {
-      background-color: #1b1b1b; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(44) {
-      background-color: #1a1a1a; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(45) {
-      background-color: #242424; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(46) {
-      background-color: #2d2d2d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(47) {
-      background-color: #242424; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(48) {
       background-color: #282828; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(49) {
-      background-color: #262626; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(50) {
-      background-color: #202020; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(51) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(5) {
+      background-color: #1c1c1c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(6) {
       background-color: #2e2e2e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(52) {
-      background-color: #232323; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(53) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(7) {
+      background-color: #1e1e1e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(8) {
+      background-color: #292929; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(9) {
       background-color: #1d1d1d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(54) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(10) {
+      background-color: #2d2d2d; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(11) {
+      background-color: #242424; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(12) {
+      background-color: #1c1c1c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(13) {
+      background-color: #1f1f1f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(14) {
+      background-color: #232323; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(15) {
+      background-color: #2e2e2e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(16) {
+      background-color: #1b1b1b; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(17) {
+      background-color: #2e2e2e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(18) {
+      background-color: #1e1e1e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(19) {
+      background-color: #2b2b2b; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(20) {
+      background-color: #2f2f2f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(21) {
+      background-color: #323232; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(22) {
+      background-color: #303030; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(23) {
+      background-color: #252525; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(24) {
+      background-color: #292929; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(25) {
+      background-color: #303030; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(26) {
+      background-color: #313131; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(27) {
+      background-color: #2c2c2c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(28) {
+      background-color: #1b1b1b; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(29) {
       background-color: #222222; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(30) {
+      background-color: #1c1c1c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(31) {
+      background-color: #232323; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(32) {
+      background-color: #202020; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(33) {
+      background-color: #323232; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(34) {
+      background-color: #1d1d1d; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(35) {
+      background-color: #212121; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(36) {
+      background-color: #323232; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(37) {
+      background-color: #1f1f1f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(38) {
+      background-color: #272727; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(39) {
+      background-color: #1c1c1c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(40) {
+      background-color: #313131; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(41) {
+      background-color: #2f2f2f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(42) {
+      background-color: #1a1a1a; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(43) {
+      background-color: #282828; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(44) {
+      background-color: #313131; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(45) {
+      background-color: #2a2a2a; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(46) {
+      background-color: #242424; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(47) {
+      background-color: #2a2a2a; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(48) {
+      background-color: #202020; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(49) {
+      background-color: #1a1a1a; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(50) {
+      background-color: #2f2f2f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(51) {
+      background-color: #2f2f2f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(52) {
+      background-color: #2e2e2e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(53) {
+      background-color: #2b2b2b; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(54) {
+      background-color: #303030; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(55) {
       background-color: #242424; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(56) {
-      background-color: #232323; }
+      background-color: #323232; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(57) {
-      background-color: #282828; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(58) {
-      background-color: #323232; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(59) {
-      background-color: #1e1e1e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(60) {
-      background-color: #1a1a1a; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(61) {
-      background-color: #202020; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(62) {
-      background-color: #313131; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(63) {
-      background-color: #1a1a1a; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(64) {
-      background-color: #1a1a1a; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(65) {
-      background-color: #2d2d2d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(66) {
-      background-color: #272727; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(67) {
-      background-color: #202020; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(68) {
-      background-color: #272727; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(69) {
-      background-color: #282828; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(70) {
-      background-color: #222222; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(71) {
-      background-color: #292929; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(72) {
-      background-color: #313131; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(73) {
-      background-color: #252525; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(74) {
-      background-color: #202020; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(75) {
       background-color: #242424; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(76) {
-      background-color: #2e2e2e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(77) {
-      background-color: #303030; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(78) {
-      background-color: #2e2e2e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(79) {
-      background-color: #2c2c2c; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(80) {
-      background-color: #303030; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(81) {
-      background-color: #282828; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(82) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(58) {
+      background-color: #212121; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(59) {
       background-color: #323232; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(83) {
-      background-color: #323232; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(84) {
-      background-color: #2e2e2e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(85) {
-      background-color: #1b1b1b; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(86) {
-      background-color: #1d1d1d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(87) {
-      background-color: #1b1b1b; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(88) {
-      background-color: #2d2d2d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(89) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(60) {
       background-color: #2f2f2f; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(90) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(61) {
+      background-color: #242424; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(62) {
+      background-color: #2e2e2e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(63) {
       background-color: #2b2b2b; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(91) {
-      background-color: #272727; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(92) {
-      background-color: #313131; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(93) {
-      background-color: #1d1d1d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(94) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(64) {
+      background-color: #2f2f2f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(65) {
+      background-color: #2f2f2f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(66) {
+      background-color: #1b1b1b; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(67) {
+      background-color: #2d2d2d; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(68) {
+      background-color: #2f2f2f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(69) {
+      background-color: #2b2b2b; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(70) {
       background-color: #1f1f1f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(71) {
+      background-color: #1a1a1a; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(72) {
+      background-color: #212121; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(73) {
+      background-color: #222222; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(74) {
+      background-color: #1c1c1c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(75) {
+      background-color: #2b2b2b; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(76) {
+      background-color: #323232; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(77) {
+      background-color: #212121; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(78) {
+      background-color: #1b1b1b; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(79) {
+      background-color: #282828; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(80) {
+      background-color: #242424; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(81) {
+      background-color: #313131; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(82) {
+      background-color: #212121; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(83) {
+      background-color: #1c1c1c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(84) {
+      background-color: #1c1c1c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(85) {
+      background-color: #2a2a2a; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(86) {
+      background-color: #1b1b1b; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(87) {
+      background-color: #272727; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(88) {
+      background-color: #2a2a2a; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(89) {
+      background-color: #2b2b2b; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(90) {
+      background-color: #323232; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(91) {
+      background-color: #252525; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(92) {
+      background-color: #1e1e1e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(93) {
+      background-color: #212121; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(94) {
+      background-color: #202020; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(95) {
-      background-color: #1d1d1d; }
+      background-color: #2f2f2f; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(96) {
       background-color: #1f1f1f; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(97) {
-      background-color: #2a2a2a; }
+      background-color: #262626; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(98) {
-      background-color: #232323; }
+      background-color: #2b2b2b; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(99) {
-      background-color: #1a1a1a; }
+      background-color: #2a2a2a; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(100) {
-      background-color: #323232; }
+      background-color: #2c2c2c; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(101) {
-      background-color: #262626; }
+      background-color: #2d2d2d; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(102) {
-      background-color: #272727; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(103) {
-      background-color: #252525; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(104) {
-      background-color: #1f1f1f; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(105) {
-      background-color: #2a2a2a; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(106) {
-      background-color: #252525; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(107) {
       background-color: #1a1a1a; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(108) {
-      background-color: #252525; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(109) {
-      background-color: #1c1c1c; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(110) {
-      background-color: #2a2a2a; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(111) {
-      background-color: #2f2f2f; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(112) {
-      background-color: #252525; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(113) {
-      background-color: #202020; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(114) {
-      background-color: #202020; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(115) {
-      background-color: #2b2b2b; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(116) {
-      background-color: #1d1d1d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(117) {
-      background-color: #212121; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(118) {
-      background-color: #303030; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(119) {
-      background-color: #1f1f1f; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(120) {
-      background-color: #232323; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(121) {
-      background-color: #2c2c2c; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(122) {
-      background-color: #2d2d2d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(123) {
-      background-color: #292929; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(124) {
-      background-color: #222222; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(125) {
-      background-color: #1e1e1e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(126) {
-      background-color: #1c1c1c; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(127) {
-      background-color: #1b1b1b; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(128) {
-      background-color: #2a2a2a; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(129) {
-      background-color: #1e1e1e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(130) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(103) {
+      background-color: #323232; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(104) {
       background-color: #282828; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(131) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(105) {
       background-color: #2e2e2e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(132) {
-      background-color: #2c2c2c; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(133) {
-      background-color: #252525; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(134) {
-      background-color: #2d2d2d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(135) {
-      background-color: #252525; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(136) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(106) {
       background-color: #1d1d1d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(137) {
-      background-color: #282828; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(138) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(107) {
+      background-color: #1c1c1c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(108) {
+      background-color: #2e2e2e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(109) {
+      background-color: #222222; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(110) {
+      background-color: #2f2f2f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(111) {
       background-color: #272727; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(139) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(112) {
+      background-color: #2e2e2e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(113) {
+      background-color: #1a1a1a; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(114) {
+      background-color: #2a2a2a; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(115) {
+      background-color: #242424; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(116) {
+      background-color: #2e2e2e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(117) {
       background-color: #1e1e1e; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(140) {
-      background-color: #303030; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(141) {
-      background-color: #2c2c2c; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(142) {
-      background-color: #313131; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(143) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(118) {
+      background-color: #1a1a1a; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(119) {
+      background-color: #292929; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(120) {
+      background-color: #242424; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(121) {
+      background-color: #2e2e2e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(122) {
+      background-color: #1c1c1c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(123) {
       background-color: #262626; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(144) {
-      background-color: #252525; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(145) {
-      background-color: #232323; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(146) {
-      background-color: #2d2d2d; }
-    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(147) {
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(124) {
+      background-color: #1f1f1f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(125) {
+      background-color: #212121; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(126) {
+      background-color: #2f2f2f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(127) {
+      background-color: #1e1e1e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(128) {
       background-color: #2b2b2b; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(129) {
+      background-color: #1a1a1a; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(130) {
+      background-color: #1f1f1f; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(131) {
+      background-color: #2c2c2c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(132) {
+      background-color: #212121; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(133) {
+      background-color: #292929; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(134) {
+      background-color: #2a2a2a; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(135) {
+      background-color: #303030; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(136) {
+      background-color: #242424; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(137) {
+      background-color: #1e1e1e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(138) {
+      background-color: #212121; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(139) {
+      background-color: #2e2e2e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(140) {
+      background-color: #323232; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(141) {
+      background-color: #232323; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(142) {
+      background-color: #1e1e1e; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(143) {
+      background-color: #232323; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(144) {
+      background-color: #1b1b1b; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(145) {
+      background-color: #2c2c2c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(146) {
+      background-color: #2c2c2c; }
+    #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(147) {
+      background-color: #212121; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(148) {
-      background-color: #1b1b1b; }
+      background-color: #1f1f1f; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(149) {
-      background-color: #272727; }
+      background-color: #2c2c2c; }
     #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(150) {
-      background-color: #1b1b1b; }
+      background-color: #232323; }
   #carouselExampleIndicators .carousel-img {
     position: absolute;
     top: -50px;
@@ -828,7 +827,10 @@ body {
     height: 200px;
     width: 200px;
     border-radius: 100%;
-    background: url("https://media.licdn.com/dms/image/C5603AQFlZHdAYiLKzw/profile-displayphoto-shrink_200_200/0?e=1548892800&v=beta&t=vVLQZnbWp2iO-Z3tU5CNh85N_V4zM9oOKIZ4N2ljEGU"); }
+    background-image: url("../img/moi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 svg {
   position: absolute;
@@ -867,15 +869,15 @@ circle {
     align-items: center;
     justify-content: center; }
     .page-index .index-covuerture::before {
-      background-image: url("../img/resto.jpg"); }
+      background-image: url("../img/resto.png"); }
   .page-index h2 {
     color: #6e0b14; }
   .page-index a {
     color: #303030; }
   .page-index .block-datte-site::before {
-    background-image: url("../img/sunrise1.jpg"); }
+    background-image: url("../img/sunrise1.png"); }
   .page-index .block-patati::before {
-    background-image: url("../img/sunrise3.jpg"); }
+    background-image: url("../img/sunrise3.png"); }
 
 @media (min-width: 1440px) {
   .page-index .index-covuerture {
@@ -893,16 +895,24 @@ circle {
   .page-index .index-covuerture {
     height: calc(100vh + 50px); } }
 
+body, html, .block-content {
+  height: 100%; }
+
 .container.page-cv {
-  margin-top: 102px;
-  padding-top: 20px; }
+  margin-top: 145px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -30%); }
+  .container.page-cv h2 {
+    color: #fefee2; }
   .container.page-cv .card-panel {
+    border-radius: 10px;
     color: #303030;
-    background-color: #fafafa;
+    background-color: #fefee2;
     padding: 20px;
-    margin: 0.5rem 0 1rem 0;
+    margin: 0.5rem 0 22px 0;
     position: relative;
-    border-radius: 2px;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
@@ -920,8 +930,8 @@ circle {
       position: absolute;
       top: 20px;
       right: 20px;
-      background-color: #404040;
-      color: white;
+      background-color: #d1ba07;
+      color: #fefee2;
       height: 50px;
       width: 50px;
       border-radius: 100%; }
@@ -945,3 +955,44 @@ circle {
         bottom: 0;
         background-color: #d1ba07;
         transition: width .3s linear; }
+    .container.page-cv .card-panel .langue {
+      display: flex;
+      align-items: center; }
+      .container.page-cv .card-panel .langue img {
+        border-radius: 2px; }
+      .container.page-cv .card-panel .langue i {
+        width: 55px;
+        color: #303030;
+        text-align: center; }
+
+.background-cv {
+  filter: blur(7px);
+  transform: scale(1.1);
+  height: 100%;
+  background-image: url("../img/background-cv.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  position: fixed; }
+
+body, html, .block-content {
+  height: 100%; }
+
+.container.page-contact {
+  margin-top: 145px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -30%); }
+  .container.page-contact h2 {
+    color: #fefee2; }
+
+.background-contact {
+  filter: blur(7px);
+  transform: scale(1.1);
+  height: 100%;
+  background-image: url("../img/background-contact.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  position: fixed; }
