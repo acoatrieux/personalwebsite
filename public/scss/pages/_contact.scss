@@ -1,0 +1,25 @@
+body, html ,.block-content{
+  height: 100%;
+}
+.container.page-contact {
+  margin-top: 145px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -30%);
+  h2 {
+    color: $blanc-casse;
+  }
+
+
+}
+.background-contact {
+  filter: blur(7px);
+  transform: scale(1.1);
+  height: 100%;
+  background-image: url("../img/background-contact.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  position:fixed;
+}

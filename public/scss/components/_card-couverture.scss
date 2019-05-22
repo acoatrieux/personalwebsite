@@ -3,9 +3,6 @@
   position: relative;
   border: 6px solid $or;
   border-radius: 8px;
-  .carousel-indicators {
-
-  }
   .carousel-inner {
     h2 {
       position: absolute;
@@ -83,7 +80,10 @@
     height: 200px;
     width: 200px;
     border-radius: 100%;
-    background: url('https://media.licdn.com/dms/image/C5603AQFlZHdAYiLKzw/profile-displayphoto-shrink_200_200/0?e=1548892800&v=beta&t=vVLQZnbWp2iO-Z3tU5CNh85N_V4zM9oOKIZ4N2ljEGU');
+    background-image: url("../img/moi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
