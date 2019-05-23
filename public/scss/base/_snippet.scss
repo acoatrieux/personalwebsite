@@ -264,22 +264,22 @@ $losangeHeight: 50px;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .hidden-xs-down{
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hidden-sm-down{
     display: none;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .hidden-md-down{
     display: none;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .hidden-lg-down{
     display: none;
   }

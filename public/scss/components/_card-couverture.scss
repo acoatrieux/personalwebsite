@@ -195,11 +195,14 @@ circle {
     .carousel-inner .carousel-item {
       width: 1000px;
       height: 500px;
+      h2{
+        top: 3%;
+      }
       .description {
         width: 30%;
       }
       .img {
-        top: 30%;
+        top: 32%;
         right: 15%;
         transform: translate(0, -50%);
       }
