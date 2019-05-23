@@ -264,4 +264,44 @@ $losangeHeight: 50px;
   }
 }
 
+@media (max-width: 576px) {
+  .hidden-xs-down{
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .hidden-sm-down{
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .hidden-md-down{
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .hidden-lg-down{
+    display: none;
+  }
+}
 
+@media (min-width: 576px) {
+  .hidden-xs-up{
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .hidden-sm-up{
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .hidden-md-up{
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg-up{
+    display: none;
+  }
+}

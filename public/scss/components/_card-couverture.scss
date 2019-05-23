@@ -1,16 +1,19 @@
 
 #carouselExampleIndicators {
   position: relative;
-  border: 6px solid $or;
+  border: 4px solid $or;
   border-radius: 8px;
+
   .carousel-inner {
     h2 {
       position: absolute;
-      top: 5%;
+      top: 7%;
       left: 50%;
       transform: translate(-50%, 0);
       color: $blanc-casse;
+      width: 100%;
     }
+
     .description {
       position: absolute;
       top: 30%;
@@ -20,6 +23,7 @@
       line-height: 2.2rem;
       text-align: justify;
     }
+
     .img {
       position: absolute;
       top: 30%;
@@ -28,6 +32,7 @@
       max-width: 30%;
       transform: translate(0, -50%);
     }
+
     .img-linkedin,
     .img-codepen,
     .img-github {
@@ -35,35 +40,50 @@
       top: 50%;
       right: 15%;
     }
+
     .img-github {
       width: 36%;
       transform: translate(8%, calc(-50% + 80px));
     }
+
     .img-linkedin {
       width: 36%;
       transform: translate(10%, calc(-50% + 80px));
     }
+
     .img-linkedin {
       width: 36%;
       transform: translate(10%, calc(-50% + 80px));
     }
+
     .img-codepen {
       width: 30%;
       transform: translate(0, calc(-50% + 80px));
     }
+
     .carousel-item {
-      width: 1000px;
-      height: 600px;
+      width: 300px;
+      height: 400px;
+
+      .description {
+        width: 70%;
+      }
+
       &:nth-child(1) {
       }
+
       &:nth-child(2) {
       }
+
       &:nth-child(3) {
       }
+
       &:nth-child(4) {
       }
+
       &:nth-child(5) {
       }
+
       @for $i from 1 through 150 {
         $value: 25 + random(25);
         &:nth-child(#{$i}) {
@@ -73,12 +93,13 @@
 
     }
   }
+
   .carousel-img {
     position: absolute;
-    top: -50px;
-    left: -50px;
-    height: 200px;
-    width: 200px;
+    top: -35px;
+    left: -35px;
+    height: 100px;
+    width: 100px;
     border-radius: 100%;
     background-image: url("../img/moi.png");
     background-position: center;
@@ -87,22 +108,167 @@
   }
 }
 
-svg {
+svg#Layer_1 {
   position: absolute;
-  top: -65px;
-  left: -65px;
+  top: -44px;
+  left: -44px;
+  height: 170px;
+  width: 170px;
+
+  g {
+    transform: translate(117px, 115px);
+
+    .circle-front {
+      stroke: $or;
+      stroke-width: 11px;
+      stroke-dasharray: 629px;
+      stroke-dashoffset: 215px;
+      transform: rotate(110deg);
+      transition: stroke-dashoffset .5s ease;
+    }
+  }
 }
 
 circle {
   fill: none;
 }
 
-.circle-front {
-  stroke: $or;
-  stroke-width: 6px;
-  stroke-dasharray: 629px;
-  stroke-dashoffset: 248px;
-  transform: rotate(119deg);
-  transition: stroke-dashoffset .5s ease;
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #carouselExampleIndicators {
+    .carousel-inner .carousel-item {
+      width: 600px;
+      height: 400px;
+        h2 {
+          top: 5%;
+        }
+      .img {
+        top: 80%;
+        right: 35%;
+        transform: translate(0, -50%);
+      }
+    }
+    .carousel-img {
+      top: -45px;
+      left: -45px;
+      height: 120px;
+      width: 120px;
+    }
+  }
+  svg#Layer_1 {
+    position: absolute;
+    top: -54px;
+    left: -54px;
+    height: 200px;
+    width: 200px;
+    g {
+      transform: translate(117px, 115px);
+
+      .circle-front {
+        stroke-width: 14px;
+        stroke-dashoffset: 205px;
+        transform: rotate(107deg);
+      }
+    }
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #carouselExampleIndicators {
+    margin-top: 30px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #carouselExampleIndicators {
+    border: 6px solid $or;
+    margin-top: 40px;
+    .carousel-inner .carousel-item {
+      width: 1000px;
+      height: 500px;
+      .description {
+        width: 30%;
+      }
+      .img {
+        top: 30%;
+        right: 15%;
+        transform: translate(0, -50%);
+      }
+    }
+    .carousel-img {
+      top: -55px;
+      left: -55px;
+      height: 170px;
+      width: 170px;
+    }
+  }
+  svg#Layer_1 {
+    position: absolute;
+    top: -70px;
+    left: -68px;
+    width: 285px;
+    height: 285px;
+
+    g {
+      transform: translate(115px, 115px);
+
+      .circle-front {
+        stroke-width: 9px;
+        stroke-dashoffset: 225px;
+        transform: rotate(112deg);
+      }
+    }
+
+  }
+}
+@media (min-width: 1600px) {
+  #carouselExampleIndicators {
+    border: 6px solid $or;
+    margin-top: 0;
+    .carousel-inner .carousel-item {
+      width: 1000px;
+      height: 600px;
+      .description {
+        width: 30%;
+      }
+      .img {
+        top: 30%;
+        right: 15%;
+        transform: translate(0, -50%);
+      }
+    }
+    .carousel-img {
+      top: -65px;
+      left: -65px;
+      height: 200px;
+      width: 200px;
+    }
+  }
+  svg#Layer_1 {
+    position: absolute;
+    top: -65px;
+    left: -65px;
+    width: 340px;
+    height: 333px;
+
+    g {
+      transform: translate(115px, 115px);
+
+      .circle-front {
+        stroke-width: 6px;
+        stroke-dashoffset: 248px;
+      }
+    }
+
+  }
 }
 
