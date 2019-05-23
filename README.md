@@ -2,6 +2,7 @@
 To install the application clone the repositories, then you can run this command
     
     composer update
+    npm install
 
 To run the application in development, you can run these commands 
 
