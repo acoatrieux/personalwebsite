@@ -93,7 +93,7 @@ body, html ,.block-content{
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .container.page-cv {
-    margin-top: 515px;
+    margin-top: 575px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-30%);
@@ -103,20 +103,20 @@ body, html ,.block-content{
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .container.page-cv {
-    margin-top: 460px;
+    margin-top: 510px;
   }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .container.page-cv {
-    margin-top: 300px;
+    margin-top: 350px;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .container.page-cv {
-    margin-top: 280px;
+    margin-top: 340px;
   }
 }
