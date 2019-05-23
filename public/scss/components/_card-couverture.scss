@@ -7,11 +7,12 @@
   .carousel-inner {
     h2 {
       position: absolute;
-      top: 7%;
+      top: 9%;
       left: 50%;
       transform: translate(-50%, 0);
       color: $blanc-casse;
       width: 100%;
+      font-size: 80%;
     }
 
     .description {
@@ -22,6 +23,7 @@
       width: 30%;
       line-height: 2.2rem;
       text-align: justify;
+      font-size: 80%;
     }
 
     .img {
@@ -62,7 +64,7 @@
     }
 
     .carousel-item {
-      width: 300px;
+      width: 235px;
       height: 400px;
 
       .description {
@@ -135,8 +137,18 @@ circle {
 
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-
+@media (min-width: 425px) {
+  #carouselExampleIndicators {
+    .carousel-inner .carousel-item {
+      width: 300px;
+      h2 {
+        top: 7%;
+        font-size: 100%;
+      }
+      .description{
+        font-size: 100%;
+      }
+    }}
 }
 
 // Medium devices (tablets, 768px and up)
