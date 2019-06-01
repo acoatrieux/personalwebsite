@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "scss": "node-sass --watch public/scss -o public/css"
+  }
+}

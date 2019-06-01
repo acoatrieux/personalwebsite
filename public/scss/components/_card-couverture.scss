@@ -270,17 +270,18 @@ circle {
   }
   svg#Layer_1 {
     position: absolute;
-    top: -65px;
-    left: -65px;
-    width: 340px;
-    height: 333px;
+    top: -83px;
+    left: -133px;
+    width: 450px;
+    height: 335px;
 
     g {
-      transform: translate(115px, 115px);
+      transform: translate(113px, 117px);
 
       .circle-front {
-        stroke-width: 6px;
-        stroke-dashoffset: 248px;
+        stroke-width: 7px;
+        stroke-dashoffset: 221px;
+        transform: rotate(112deg);
       }
     }
 
